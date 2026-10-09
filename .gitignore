@@ -1,0 +1,22 @@
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+*.db
+*.sqlite
+keys/
+.DS_Store
+*.egg-info/
+.pytest_cache/
+coverage/
+.vite/
+*.timestamp-*
+feedback.json
+
+# Environment
+.env*
+!.env.example

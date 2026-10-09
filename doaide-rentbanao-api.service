@@ -1,0 +1,16 @@
+[Unit]
+Description=DoAide RentBanao API
+After=network.target
+
+[Service]
+Type=simple
+User=dev
+WorkingDirectory=/home/dev/projects/Products/DoAide-RentBanao/backend
+Environment=PORT=3071
+EnvironmentFile=/home/dev/projects/Products/DoAide-RentBanao/backend/.env
+ExecStart=/home/dev/projects/Products/DoAide-RentBanao/backend/.venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 3071
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,14 @@
+[Unit]
+Description=DoAide RentBanao Web (serve built frontend)
+After=network.target
+
+[Service]
+Type=simple
+User=dev
+WorkingDirectory=/home/dev/projects/Products/DoAide-RentBanao/frontend
+ExecStart=/usr/bin/npx serve -s dist -l 3072
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

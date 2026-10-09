@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rent.doaide.com/sitemap.xml
