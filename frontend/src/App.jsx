@@ -5,6 +5,8 @@ import Generator from './pages/Generator'
 import StampDuty from './pages/StampDuty'
 import Templates from './pages/Templates'
 import StateTemplate from './pages/StateTemplate'
+import BlogList from './pages/blog/BlogList'
+import BlogPost from './pages/blog/BlogPost'
 
 export default function App() {
   return (
@@ -15,6 +17,8 @@ export default function App() {
         <Route path="/stamp-duty" element={<StampDuty />} />
         <Route path="/templates" element={<Templates />} />
         <Route path="/templates/:stateSlug" element={<StateTemplate />} />
+        <Route path="/blog" element={<BlogList />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
       </Routes>
     </Layout>
   )

@@ -6,6 +6,7 @@ const NAV_LINKS = [
   { to: '/generator', label: 'Generator' },
   { to: '/stamp-duty', label: 'Stamp Duty' },
   { to: '/templates', label: 'Templates' },
+  { to: '/blog', label: 'Blog' },
 ]
 
 export default function Layout({ children }) {
@@ -79,7 +80,7 @@ export default function Layout({ children }) {
 
       <footer className="border-t border-brand-border py-8 mt-12">
         <div className="max-w-6xl mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
               <h3 className="font-bold text-white mb-3">RentBanao</h3>
               <p className="text-sm text-brand-muted">
@@ -93,6 +94,15 @@ export default function Layout({ children }) {
                 <li><Link to="/generator" className="hover:text-brand-primary transition-colors">Rent Agreement Generator</Link></li>
                 <li><Link to="/stamp-duty" className="hover:text-brand-primary transition-colors">Stamp Duty Calculator</Link></li>
                 <li><Link to="/templates" className="hover:text-brand-primary transition-colors">State Templates</Link></li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-bold text-white mb-3">Resources</h3>
+              <ul className="space-y-2 text-sm text-brand-muted">
+                <li><Link to="/blog" className="hover:text-brand-primary transition-colors">Blog</Link></li>
+                <li><Link to="/blog/rent-agreement-rules-india" className="hover:text-brand-primary transition-colors">Rent Agreement Rules</Link></li>
+                <li><Link to="/blog/stamp-duty-guide-rent-agreement-india" className="hover:text-brand-primary transition-colors">Stamp Duty Guide</Link></li>
+                <li><Link to="/blog/tenant-rights-india" className="hover:text-brand-primary transition-colors">Tenant Rights</Link></li>
               </ul>
             </div>
             <div>
