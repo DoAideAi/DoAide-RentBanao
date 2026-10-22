@@ -13,6 +13,7 @@ from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY, TA_LEFT
 from num2words import num2words
 
 from app.models import AgreementInput
+from app.safe_paragraph import SafeParagraph as Paragraph
 from app.data.stamp_duty import calculate_stamp_duty
 
 

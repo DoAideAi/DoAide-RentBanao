@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Helmet } from 'react-helmet-async'
 import { fetchStates, calculateStampDuty, compareAllStates } from '../api'
+import ShareButtons from '../components/ShareButtons'
 
 export default function StampDuty() {
   const [states, setStates] = useState([])
@@ -161,6 +162,10 @@ export default function StampDuty() {
                 {result.notes && (
                   <p className="text-xs text-brand-muted">{result.notes}</p>
                 )}
+
+                <ShareButtons
+                  text={`Stamp duty for rent agreement in ${result.state}: ₹${result.stamp_duty?.toLocaleString('en-IN')} (${result.stamp_duty_rate}). Total cost incl. registration: ₹${result.total_cost?.toLocaleString('en-IN')}.`}
+                />
               </div>
             )}
 

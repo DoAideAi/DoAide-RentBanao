@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Helmet } from 'react-helmet-async'
 import { fetchStates, generateAgreementPdf, previewAgreement } from '../api'
+import ShareButtons from '../components/ShareButtons'
 
 const INITIAL_FORM = {
   landlord_name: '',
@@ -423,6 +424,10 @@ export default function Generator() {
                 <li>Each party keeps a copy</li>
               </ol>
             </div>
+
+            <ShareButtons
+              text={`I just created a rent agreement on RentBanao — free, legally valid, with stamp duty of ₹${preview.stamp_duty?.stamp_duty?.toLocaleString('en-IN') || 'the correct value'} calculated automatically.`}
+            />
           </div>
         )}
       </div>
