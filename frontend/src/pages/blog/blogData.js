@@ -1,5 +1,184 @@
 const BLOG_POSTS = [
   {
+    slug: 'online-rent-agreement-india',
+    title: 'Online Rent Agreement in India (2026): How to Make One in 10 Minutes',
+    metaDescription: 'Create an online rent agreement in India in minutes — step-by-step 2026 guide covering e-stamping, Aadhaar e-sign, state portals, legal validity, and costs. Free generator included.',
+    publishedDate: '2026-10-22',
+    modifiedDate: '2026-10-22',
+    author: 'RentBanao Team',
+    readTime: '9 min read',
+    heroAlt: 'Creating an online rent agreement in India on a laptop with e-stamp',
+    tags: ['online rent agreement', 'e-stamp', 'Aadhaar e-sign', 'India', '2026'],
+    content: `
+      <h2>Why Make Your Rent Agreement Online?</h2>
+      <p>Until a few years ago, making a rent agreement in India meant visiting a stamp vendor, hunting for a notary, and often paying a broker Rs 1,000–2,000 in "documentation charges" for a photocopied template. In 2026, the entire process can be completed online — drafting, e-stamping, and even Aadhaar-based e-signing — without either party leaving home.</p>
+      <p>An online rent agreement is exactly as legally valid as a paper one, provided it is executed on stamp paper of the correct value (or carries an e-stamp certificate) and is registered where registration is mandatory. The Information Technology Act, 2000 gives legal recognition to electronic records and Aadhaar e-signatures, and every major state now accepts e-stamped rental documents.</p>
+
+      <h2>Step-by-Step: How to Create an Online Rent Agreement</h2>
+      <h3>Step 1: Draft the Agreement</h3>
+      <p>Use the free <a href="/generator">RentBanao Rent Agreement Generator</a> to draft a complete leave and licence agreement. You will need:</p>
+      <ul>
+        <li>Full names, addresses, and ID details (Aadhaar/PAN) of the landlord and tenant</li>
+        <li>Complete address and description of the rented property</li>
+        <li>Monthly rent, security deposit, and payment due date</li>
+        <li>Agreement duration (11 months is standard), lock-in period, and notice period</li>
+        <li>Maintenance responsibilities and any special conditions</li>
+      </ul>
+      <p>If you want state-specific clauses, start from one of the <a href="/templates">state-wise templates</a> for Maharashtra, Karnataka, Delhi, Tamil Nadu, and other states.</p>
+      <h3>Step 2: Calculate and Pay Stamp Duty</h3>
+      <p>Stamp duty varies by state — for example, 0.25% of total rent plus deposit in Maharashtra, around 1% in Karnataka, and 2% of average annual rent in Delhi. Use the <a href="/stamp-duty">Stamp Duty Calculator</a> to get the exact figure. You can then buy an e-stamp certificate online through the Stock Holding Corporation of India (SHCIL) portal or an authorised collection centre; many states also sell e-stamps through bank branches and CSC centres.</p>
+      <h3>Step 3: Print or e-Sign</h3>
+      <p>You have two options in 2026:</p>
+      <ul>
+        <li><strong>Print and sign physically:</strong> Print the agreement on (or attach it to) the stamp paper, and have the landlord, tenant, and two witnesses sign every page.</li>
+        <li><strong>Aadhaar e-sign:</strong> Several state portals and e-sign providers let both parties sign digitally using an Aadhaar OTP. The e-signed document carries a digital signature certificate and audit trail, and is valid under the IT Act, 2000.</li>
+      </ul>
+      <h3>Step 4: Register the Agreement (Where Mandatory)</h3>
+      <p>For agreements longer than 11 months, registration with the Sub-Registrar is mandatory across India under the Registration Act, 1908. Maharashtra goes further — every leave and licence agreement must be registered regardless of duration, and the state's e-Registration portal lets you complete this fully online with Aadhaar-based biometric or OTP verification. In Delhi, Karnataka, and most other states, a standard 11-month agreement does not require registration.</p>
+
+      <h2>What Does an Online Rent Agreement Cost in 2026?</h2>
+      <ul>
+        <li><strong>Drafting:</strong> Free with the <a href="/generator">RentBanao Generator</a> (no login required)</li>
+        <li><strong>Stamp duty:</strong> Rs 100–1,500 for a typical 11-month residential agreement, depending on the state and rent</li>
+        <li><strong>e-Stamp convenience fee:</strong> Rs 0–50 depending on the channel</li>
+        <li><strong>Registration (where applicable):</strong> Rs 500–1,100 plus portal charges</li>
+        <li><strong>Doorstep biometric service (Maharashtra):</strong> Rs 300–700 if you use an authorised service provider</li>
+      </ul>
+      <p>Compare that with the Rs 1,500–3,500 brokers and agents typically charge for the same paperwork, and the case for doing it online is clear.</p>
+
+      <h2>Is an Online Rent Agreement Legally Valid?</h2>
+      <p>Yes — validity depends on stamping and registration, not on whether the document was drafted online or offline. A court will accept an online rent agreement as evidence if:</p>
+      <ul>
+        <li>It is executed on stamp paper or carries an e-stamp certificate of the correct value for your state</li>
+        <li>It is signed by both parties (physically or via Aadhaar e-sign) and ideally two witnesses</li>
+        <li>It is registered, where the duration or the state's law makes registration mandatory</li>
+      </ul>
+      <p>Keep a scanned copy, the e-stamp certificate number, and rent payment records together — this bundle is what actually protects you in a dispute.</p>
+
+      <h2>Common Mistakes to Avoid</h2>
+      <ul>
+        <li><strong>Under-stamping:</strong> Using a Rs 100 stamp paper when your state's formula requires more makes the agreement inadmissible until penalties are paid — courts can levy up to 10 times the deficit</li>
+        <li><strong>Skipping mandatory registration in Maharashtra:</strong> An unregistered leave and licence agreement there attracts penalties on the landlord</li>
+        <li><strong>Leaving out the notice period or lock-in clause:</strong> The most common source of landlord–tenant disputes</li>
+        <li><strong>Not verifying the e-stamp:</strong> Always verify the certificate number on the SHCIL verification portal before signing</li>
+        <li><strong>Backdating the agreement:</strong> Stamp duty is payable on or before execution; backdating can invalidate the document</li>
+      </ul>
+
+      <h2>Conclusion</h2>
+      <p>Making a rent agreement online in India is faster, cheaper, and just as legally sound as the traditional route. Draft it free with the <a href="/generator">RentBanao Generator</a>, pay the correct stamp duty using the <a href="/stamp-duty">calculator</a>, e-stamp it, and register it if your state requires. The whole process takes about 10 minutes of your time — and saves you a broker's fee.</p>
+    `,
+    faqs: [
+      {
+        question: 'Is an online rent agreement valid in India?',
+        answer: 'Yes. An online rent agreement is legally valid if it is executed on stamp paper or with an e-stamp certificate of the correct value, signed by both parties (physically or via Aadhaar e-sign), and registered where registration is mandatory. The IT Act, 2000 recognises electronic records and Aadhaar e-signatures.'
+      },
+      {
+        question: 'How much does an online rent agreement cost in 2026?',
+        answer: 'Drafting is free with tools like the RentBanao Generator. Stamp duty typically ranges from Rs 100 to Rs 1,500 for an 11-month residential agreement depending on the state, plus Rs 500–1,100 registration fees where registration is mandatory.'
+      },
+      {
+        question: 'Can I make a rent agreement online without visiting a notary?',
+        answer: 'Yes. Notarisation is not legally required for a rent agreement — what matters is proper stamping and, where applicable, registration. Many people confuse notarisation with registration; a notarised but unregistered agreement does not satisfy mandatory registration requirements.'
+      },
+      {
+        question: 'What is an e-stamp and how do I get one?',
+        answer: 'An e-stamp is a computer-generated stamp duty certificate issued through the Stock Holding Corporation of India (SHCIL) and authorised collection centres, including many banks. You pay the stamp duty amount and receive a certificate with a unique number that can be verified online.'
+      },
+      {
+        question: 'Is registration mandatory for an 11-month online rent agreement?',
+        answer: 'In most states, no — registration is mandatory only for agreements longer than 11 months. Maharashtra is the major exception: all leave and licence agreements there must be registered regardless of duration, which can be done fully online via the state e-Registration portal.'
+      }
+    ]
+  },
+  {
+    slug: 'rent-agreement-stamp-duty',
+    title: 'Rent Agreement Stamp Duty in India (2026): Rates, Calculation & How to Pay',
+    metaDescription: 'Rent agreement stamp duty explained for 2026 — state-wise rates, exact calculation formula with examples in ₹, e-stamping steps, penalties for under-stamping, and who pays.',
+    publishedDate: '2026-10-22',
+    modifiedDate: '2026-10-22',
+    author: 'RentBanao Team',
+    readTime: '8 min read',
+    heroAlt: 'Rent agreement stamp duty calculation with e-stamp paper and calculator',
+    tags: ['stamp duty', 'rent agreement', 'registration charges', 'India', '2026'],
+    content: `
+      <h2>What Is Stamp Duty on a Rent Agreement?</h2>
+      <p>Stamp duty is a state tax that makes your rent agreement legally enforceable. It is governed by the Indian Stamp Act, 1899 and each state's own stamp act, which is why the rate on the same agreement can differ five-fold between, say, Maharashtra and Delhi. An agreement that is not stamped (or is stamped below the required value) cannot be admitted as evidence in court until the deficit and a penalty — up to 10 times the shortfall — are paid.</p>
+      <p>This guide gives you the 2026 rates, the exact calculation method with rupee examples, and the fastest ways to pay.</p>
+
+      <h2>How Rent Agreement Stamp Duty Is Calculated</h2>
+      <p>Most states use a variant of this formula:</p>
+      <p><strong>Stamp Duty = (Total rent for the agreement period + security deposit considered by the state) × state rate</strong></p>
+      <p>Worked example for Maharashtra (rate: 0.25% of total rent plus deposit):</p>
+      <ul>
+        <li>Monthly rent: ₹25,000 | Duration: 11 months | Deposit: ₹1,00,000</li>
+        <li>Total rent = ₹25,000 × 11 = ₹2,75,000</li>
+        <li>Base = ₹2,75,000 + ₹1,00,000 = ₹3,75,000</li>
+        <li>Stamp duty = 0.25% × ₹3,75,000 = <strong>₹938 (rounded)</strong></li>
+      </ul>
+      <p>The same agreement in Delhi (2% of average annual rent) would need roughly ₹6,000 of stamp paper if executed for more than a year, but a standard 11-month Delhi agreement is commonly executed on ₹100 stamp paper. To skip the manual math, use the free <a href="/stamp-duty">RentBanao Stamp Duty Calculator</a> — it applies each state's current formula automatically.</p>
+
+      <h2>State-Wise Stamp Duty Snapshot (2026)</h2>
+      <ul>
+        <li><strong>Maharashtra:</strong> 0.25% of (total rent + deposit); registration mandatory for every leave and licence agreement; registration fee ₹1,000</li>
+        <li><strong>Karnataka:</strong> 0.5% of (total rent + deposit) for agreements up to 1 year, minimum ₹200; registration fee ₹500</li>
+        <li><strong>Delhi:</strong> 2% of average annual rent for agreements up to 5 years; 11-month agreements commonly on ₹100 e-stamp; registration fee ₹1,100 (optional for 11 months)</li>
+        <li><strong>Tamil Nadu:</strong> 1% of (total rent + advance); registration mandatory beyond 11 months under the TN Tenancy Act</li>
+        <li><strong>Telangana:</strong> 0.4% of (total rent + deposit), minimum ₹100</li>
+        <li><strong>Uttar Pradesh:</strong> 2% of annual rent, minimum ₹100</li>
+        <li><strong>West Bengal:</strong> slab-based, typically ₹100–500 for standard 11-month residential agreements</li>
+        <li><strong>Gujarat:</strong> 1% of (average annual rent + deposit), minimum ₹100</li>
+      </ul>
+      <p>Rates are revised by state budgets from time to time — always confirm the current figure with the <a href="/stamp-duty">calculator</a> or your Sub-Registrar's office before buying stamp paper.</p>
+
+      <h2>Who Pays the Stamp Duty — Landlord or Tenant?</h2>
+      <p>The law does not fix this; it is a matter of agreement between the parties. In practice:</p>
+      <ul>
+        <li>In most of North India, the <strong>tenant</strong> customarily bears stamp duty and registration charges</li>
+        <li>In Maharashtra, costs are commonly <strong>split 50:50</strong> between landlord and tenant</li>
+        <li>For company leases, the <strong>employer/company</strong> usually pays</li>
+      </ul>
+      <p>Whatever you choose, write it into the agreement itself to avoid disputes at renewal time.</p>
+
+      <h2>How to Pay Stamp Duty in 2026</h2>
+      <h3>1. e-Stamp (Recommended)</h3>
+      <p>Buy an e-stamp certificate through SHCIL (Stock Holding Corporation of India) online or at authorised centres, including many bank branches. You get a tamper-proof certificate with a unique ID, verifiable online, in the exact amount you need.</p>
+      <h3>2. Franking</h3>
+      <p>Take the printed agreement to an authorised bank or franking centre, which stamps the document after you pay the duty. Still common in Gujarat and parts of Maharashtra.</p>
+      <h3>3. Physical Stamp Paper</h3>
+      <p>Traditional non-judicial stamp paper from licensed vendors. Buy it in the name of one of the parties, and remember that in most states stamp paper has no expiry but must be used for the stated purpose.</p>
+      <h3>4. Online Payment via State Portals (GRAS/e-GRAS)</h3>
+      <p>States like Maharashtra let you pay stamp duty and registration fees online through the GRAS portal during e-registration — no physical paper involved at all.</p>
+
+      <h2>Penalties for Under-Stamping</h2>
+      <p>If you present an under-stamped rent agreement in court or before an authority, it can be impounded under Section 33 of the Stamp Act. You will have to pay the deficit duty plus a penalty that can go up to <strong>10 times the shortfall</strong>. Spending ₹500 correctly today is far cheaper than a ₹5,000 penalty during a dispute — exactly when you need the document most.</p>
+
+      <h2>Conclusion</h2>
+      <p>Stamp duty on a rent agreement in India is small — usually a few hundred to a couple of thousand rupees — but getting it wrong can make your agreement worthless in court. Check your state's rate with the free <a href="/stamp-duty">Stamp Duty Calculator</a>, generate a compliant agreement with the <a href="/generator">RentBanao Generator</a>, and e-stamp it for a fully verifiable paper trail.</p>
+    `,
+    faqs: [
+      {
+        question: 'How much is stamp duty on an 11-month rent agreement?',
+        answer: 'It depends on the state. Typical 2026 figures: Maharashtra 0.25% of total rent plus deposit (about ₹900–1,000 for ₹25,000 rent), Karnataka 0.5% with a ₹200 minimum, Delhi commonly ₹100 e-stamp for 11-month agreements, Tamil Nadu 1% of rent plus advance. Use a state-specific calculator for the exact amount.'
+      },
+      {
+        question: 'Who pays stamp duty on a rent agreement — landlord or tenant?',
+        answer: 'The law does not mandate who pays; it is decided mutually. Customarily the tenant pays in most of North India, while in Maharashtra the cost is often split equally. Record the arrangement in the agreement itself.'
+      },
+      {
+        question: 'What happens if a rent agreement is not stamped properly?',
+        answer: 'An under-stamped or unstamped agreement is inadmissible as evidence in court. It can be impounded, and you must pay the deficit stamp duty plus a penalty of up to 10 times the shortfall before the document can be used.'
+      },
+      {
+        question: 'Can I pay rent agreement stamp duty online?',
+        answer: 'Yes. You can buy an e-stamp certificate through SHCIL online or at authorised centres, and states like Maharashtra accept fully online payment through the GRAS portal during e-registration of leave and licence agreements.'
+      },
+      {
+        question: 'Is stamp duty different from registration charges?',
+        answer: 'Yes. Stamp duty is the tax that validates the document, while the registration fee is a separate charge (typically ₹500–1,100) paid to the Sub-Registrar for recording the agreement. An 11-month agreement needs stamp duty everywhere, but registration is mandatory only in some states like Maharashtra.'
+      }
+    ]
+  },
+  {
     slug: 'rent-agreement-rules-india',
     title: 'Rent Agreement Rules in India: Complete Guide for Landlords and Tenants (2024)',
     metaDescription: 'Learn all rent agreement rules in India — registration requirements, stamp duty, mandatory clauses, notice periods, and legal validity. State-wise guide for landlords and tenants.',
