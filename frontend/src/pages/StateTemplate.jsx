@@ -22,12 +22,17 @@ export default function StateTemplate() {
         <title>{state.title} | RentBanao</title>
         <meta name="description" content={state.metaDesc} />
         <link rel="canonical" href={`https://rent.doaide.com/templates/${state.slug}`} />
+        <meta property="og:title" content={`${state.title} | RentBanao`} />
+        <meta property="og:description" content={state.metaDesc} />
+        <meta property="og:url" content={`https://rent.doaide.com/templates/${state.slug}`} />
+        <meta property="og:type" content="article" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Article",
           "headline": state.title,
           "description": state.metaDesc,
           "author": { "@type": "Organization", "name": "DoAide" },
+          "url": `https://rent.doaide.com/templates/${state.slug}`,
         })}</script>
       </Helmet>
 

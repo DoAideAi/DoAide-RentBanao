@@ -5,6 +5,10 @@ import { HelmetProvider } from 'react-helmet-async'
 import App from './App'
 import './index.css'
 
+// Remove prerendered h1 (SEO shell) once React takes over
+const prerenderEl = document.querySelector('[data-prerender]')
+if (prerenderEl) prerenderEl.remove()
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <HelmetProvider>

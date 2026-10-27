@@ -135,8 +135,13 @@ export default function Generator() {
   return (
     <>
       <Helmet>
-        <title>Rent Agreement Generator - RentBanao</title>
+        <title>Rent Agreement Generator - Create Free Rental Agreement Online | RentBanao</title>
         <meta name="description" content="Generate a legally valid rent agreement for any Indian state. Fill a simple form and download your agreement as PDF. Free, no login required." />
+        <link rel="canonical" href="https://rent.doaide.com/generator" />
+        <meta property="og:title" content="Rent Agreement Generator - Create Free Rental Agreement Online | RentBanao" />
+        <meta property="og:description" content="Generate a legally valid rent agreement for any Indian state. Fill a simple form and download your agreement as PDF. Free, no login required." />
+        <meta property="og:url" content="https://rent.doaide.com/generator" />
+        <meta property="og:type" content="website" />
       </Helmet>
 
       <div className="max-w-4xl mx-auto px-4 py-8">

@@ -9,6 +9,10 @@ export default function BlogList() {
         <title>Blog - RentBanao | Rent Agreement & Tenant Rights Guides</title>
         <meta name="description" content="Expert guides on rent agreement rules, stamp duty calculations, tenant rights, and rental laws in India. Free resources for landlords and tenants." />
         <link rel="canonical" href="https://rent.doaide.com/blog" />
+        <meta property="og:title" content="Blog - RentBanao | Rent Agreement & Tenant Rights Guides" />
+        <meta property="og:description" content="Expert guides on rent agreement rules, stamp duty calculations, tenant rights, and rental laws in India." />
+        <meta property="og:url" content="https://rent.doaide.com/blog" />
+        <meta property="og:type" content="website" />
       </Helmet>
 
       <section className="max-w-4xl mx-auto px-4 py-16">

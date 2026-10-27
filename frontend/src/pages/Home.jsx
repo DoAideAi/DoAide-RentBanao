@@ -37,6 +37,11 @@ export default function Home() {
       <Helmet>
         <title>RentBanao - Free Rent Agreement Generator for India</title>
         <meta name="description" content="Generate legally valid rent agreements for all Indian states. Free, no login required. Includes stamp duty calculator and state-specific templates." />
+        <link rel="canonical" href="https://rent.doaide.com/" />
+        <meta property="og:title" content="RentBanao - Free Rent Agreement Generator for India" />
+        <meta property="og:description" content="Generate legally valid rent agreements for all Indian states. Free, no login required. Includes stamp duty calculator and state-specific templates." />
+        <meta property="og:url" content="https://rent.doaide.com/" />
+        <meta property="og:type" content="website" />
       </Helmet>
 
       <section className="relative overflow-hidden">

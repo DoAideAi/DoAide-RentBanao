@@ -49,6 +49,11 @@ export default function StampDuty() {
       <Helmet>
         <title>Stamp Duty Calculator for Rent Agreements - All Indian States | RentBanao</title>
         <meta name="description" content="Calculate stamp duty and registration fees for rent agreements across all Indian states and UTs. Compare rates, check e-stamp availability." />
+        <link rel="canonical" href="https://rent.doaide.com/stamp-duty" />
+        <meta property="og:title" content="Stamp Duty Calculator for Rent Agreements - All Indian States | RentBanao" />
+        <meta property="og:description" content="Calculate stamp duty and registration fees for rent agreements across all Indian states and UTs. Compare rates, check e-stamp availability." />
+        <meta property="og:url" content="https://rent.doaide.com/stamp-duty" />
+        <meta property="og:type" content="website" />
       </Helmet>
 
       <div className="max-w-6xl mx-auto px-4 py-8">

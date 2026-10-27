@@ -8,6 +8,11 @@ export default function Templates() {
       <Helmet>
         <title>Rent Agreement Templates for All Indian States | RentBanao</title>
         <meta name="description" content="Free rent agreement templates for Maharashtra, Karnataka, Delhi, Tamil Nadu, and all Indian states. Download state-specific rental agreement formats." />
+        <link rel="canonical" href="https://rent.doaide.com/templates" />
+        <meta property="og:title" content="Rent Agreement Templates for All Indian States | RentBanao" />
+        <meta property="og:description" content="Free rent agreement templates for Maharashtra, Karnataka, Delhi, Tamil Nadu, and all Indian states. Download state-specific rental agreement formats." />
+        <meta property="og:url" content="https://rent.doaide.com/templates" />
+        <meta property="og:type" content="website" />
       </Helmet>
 
       <div className="max-w-6xl mx-auto px-4 py-8">
